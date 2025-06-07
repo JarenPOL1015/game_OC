@@ -1,6 +1,5 @@
 .data
 
-
 .text
 main:
 	li $a1, 3  # Here you set $a1 to the max bound.
