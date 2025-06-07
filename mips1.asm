@@ -28,6 +28,5 @@
 	# Texto
 	
 	li $v0, 4 # Mostrar un texto (string)
-	la $a0, palabra # a0 = ... (Mostrar en pantalla)
-	
+	la $a0, palabra # a0 = ... (Mostrar en pantalla)	
 	syscall
