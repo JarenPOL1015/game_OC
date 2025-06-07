@@ -69,10 +69,6 @@ En este ejemplo, el jugador eligió **Piedra** (1), y la computadora eligió **T
 
 Si deseas contribuir a este proyecto, ¡serás bienvenido! Puedes realizar un **fork** del repositorio, hacer tus modificaciones y luego abrir un **pull request** para que tu código sea revisado e integrado.
 
-## 📜 **Licencia**
-
-Este proyecto está bajo la **MIT License** - consulta el archivo [LICENSE](LICENSE) para más detalles.
-
 ---
 
 **Autor**: Jaren Pazmiño  
