@@ -9,7 +9,7 @@
 main:
 	# Elecciones (numero escogido)
 	# Usuario: t0
-	# Computadora: v0
+	# Computadora: a0
 	
     	# Mostrar mensaje para pedir la elección del usuario
 	li $v0, 4   		# Código de syscall 4 para imprimir un string
@@ -56,15 +56,15 @@ main:
     	j lose
     
     check_win_rock:
-    	beq $v0, 3, win  # Si la compu eligió Tijera (3), el usuario gana
+    	beq $a0, 3, win  # Si la compu eligió Tijera (3), el usuario gana
     	j lose
     	
     check_win_paper:
-    	beq $v0, 1, win  # Si la compu eligió Piedra (1), el usuario gana
+    	beq $a0, 1, win  # Si la compu eligió Piedra (1), el usuario gana
     	j lose
     
     check_win_scissors:
-    	beq $v0, 2, win  # Si la compu eligió Papel (2), el usuario gana
+    	beq $a0, 2, win  # Si la compu eligió Papel (2), el usuario gana
     	j lose	
 
     # Entrada inválida
